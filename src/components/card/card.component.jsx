@@ -6,9 +6,7 @@ import './card.styles.scss';
 
 const Card = () => (
     <div className="card">
-        <div className="image-container">
-            {/* <img className="header-image" src={drawers} alt="drawers"/> */}
-        </div>
+        <div className="image-container"/>
         <PostProfileWrapper/>
     </div>
 )

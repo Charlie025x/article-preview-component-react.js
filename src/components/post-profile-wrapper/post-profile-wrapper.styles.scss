@@ -11,13 +11,20 @@
   }
 }
 
+.profile-activeShare-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  padding-top: 1.5rem;
+}
+
 .profile-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 2rem;
-  padding-bottom: 1.5rem;
-  padding-top: 1.5rem;
+  // padding: 2rem;
+  // padding-bottom: 1.5rem;
+  // padding-top: 1.5rem;
 }
 
 .profile-picture {
@@ -58,11 +65,7 @@ button {
   // display: flex;
   display: none;
   align-items: center;
-  padding: 2rem;
-  padding-bottom: 1.5rem;
-  padding-top: 1.5rem;
   background-color: var(--dark-gray-blue);
-  border-radius: 0 0 20px 20px;
   color: var(--gray-blue);
   letter-spacing: 0.3rem;
   text-transform: uppercase;

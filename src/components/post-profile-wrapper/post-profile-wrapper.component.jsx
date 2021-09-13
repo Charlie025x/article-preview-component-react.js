@@ -22,23 +22,25 @@ const PostProfileWrapper = () => (
                 to help you make any room feel complete.
                 </p>
             </div>
-    
-            <div className="profile-container">
-                <img className="profile-picture" src={ avatarMichell } alt=""/>
-                <div>
-                    <p className="username">Michelle Appleton</p>
-                    <p className="posted-date">28 Jun 2020</p>
+            <div className="profile-activeShare-wrapper">
+                <div className="profile-container">
+                    <img className="profile-picture" src={ avatarMichell } alt=""/>
+                    <div>
+                        <p className="username">Michelle Appleton</p>
+                        <p className="posted-date">28 Jun 2020</p>
+                    </div>
+                    {/* <button><img src={ iconShare } alt=""/></button> */}
                 </div>
-                <button><img src={ iconShare } alt=""/></button>
-            </div>
 
-            {/* <!-- active sharing state, include with javascript --> */}
-            <div className="activeShare">
-                <div>
-                    <p className="share">share</p>
-                    <img className="platform-btn" src={ iconFacebook } alt=""/>
-                    <img className="platform-btn" src={ iconTwitter } alt=""/>
-                    <img className="platform-btn" src={ iconPinterest } alt=""/>
+                {/* <!-- active sharing state, include with javascript --> */}
+                <div className="activeShare">
+                    <div>
+                        <p className="share">share</p>
+                        <img className="platform-btn" src={ iconFacebook } alt=""/>
+                        <img className="platform-btn" src={ iconTwitter } alt=""/>
+                        <img className="platform-btn" src={ iconPinterest } alt=""/>
+                    </div>
+                    {/* <button><img src={ iconShare } alt=""/></button> */}
                 </div>
                 <button><img src={ iconShare } alt=""/></button>
             </div>
