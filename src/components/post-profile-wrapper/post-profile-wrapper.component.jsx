@@ -1,8 +1,7 @@
-import avatarMichell from '../images/avatar-michelle.jpg';
 import iconShare from '../images/icon-share.svg';
-import iconFacebook from '../images/icon-facebook.svg';
-import iconTwitter from '../images/icon-twitter.svg';
-import iconPinterest from '../images/icon-pinterest.svg';
+
+import ProfileContainer from '../profile-container/profile-container.component';
+import ActiveShare from '../activeShare/activeShare.component';
 
 import React from "react";
 
@@ -42,25 +41,10 @@ class PostProfileWrapper extends React.Component {
                     to help you make any room feel complete.
                     </p>
                 </div>
-                <div className="profile-activeShare-wrapper">
-                    {showHideProfileContainer && (
-                    <div className="profile-container">
-                        <img className="profile-picture" src={ avatarMichell } alt=""/>
-                        <div>
-                            <p className="username">Michelle Appleton</p>
-                            <p className="posted-date">28 Jun 2020</p>
-                        </div>
-                    </div>)}
+                <div className={`profile-activeShare-wrapper ${!showHideProfileContainer ? 'active-bg-color' : ''}`}>
+                    {showHideProfileContainer && <ProfileContainer/>}
 
-                    {!showHideProfileContainer && (
-                    <div className="activeShare">
-                        <div>
-                            <p className="share">share</p>
-                            <img className="platform-btn" src={ iconFacebook } alt=""/>
-                            <img className="platform-btn" src={ iconTwitter } alt=""/>
-                            <img className="platform-btn" src={ iconPinterest } alt=""/>
-                        </div>
-                    </div>)}
+                    {!showHideProfileContainer && <ActiveShare/>}
                     
                     <button onClick={() => this.hideComponent('showHideProfileContainer')}><img src={ iconShare } alt=""/></button>
                 </div>
