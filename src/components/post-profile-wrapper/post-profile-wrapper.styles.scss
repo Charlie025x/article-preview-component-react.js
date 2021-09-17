@@ -62,8 +62,8 @@ button {
 }
 
 .activeShare {
-  // display: flex;
-  display: none;
+  display: flex;
+  // display: none;
   align-items: center;
   background-color: var(--dark-gray-blue);
   color: var(--gray-blue);
