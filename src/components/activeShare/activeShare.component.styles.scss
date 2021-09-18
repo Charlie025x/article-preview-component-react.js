@@ -11,9 +11,19 @@
     display: contents;
     margin-left: 2rem;
   }
+  .platform-btn {
+    margin-left: 1rem;
+    width: 1.5rem;
+  }
 }
 
-.activeShare .platform-btn {
-  margin-left: 1rem;
-  width: 1.5rem;
+@media screen and (max-width: 395px) {
+  .activeShare {
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    height: 58px; // for a consitent size
+    .platform-btn {
+      margin-left: 5%;
+    }
+  }
 }

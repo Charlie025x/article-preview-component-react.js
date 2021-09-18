@@ -14,14 +14,12 @@
 .profile-activeShare-wrapper {
   display: flex;
   align-items: center;
-  padding: 2rem;
-  padding-top: 0.7rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
   border-radius: 0 0 20px 20px;
 }
 
 .active-bg-color {
   background-color: var(--dark-gray-blue);
-  padding: 0.5rem 2rem 0.5rem 2rem;
 }
 
 button {
@@ -30,8 +28,8 @@ button {
   border-radius: 50%;
   border: none;
   background-color: var(--light-gray-blue);
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 @media only screen and (min-width: 992px) {
