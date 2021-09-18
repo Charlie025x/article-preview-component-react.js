@@ -23,6 +23,7 @@
 }
 
 button {
+  order: 1; // fixes new markup order
   padding: 0;
   margin-left: auto;
   border-radius: 50%;

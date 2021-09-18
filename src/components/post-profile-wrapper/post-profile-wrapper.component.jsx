@@ -44,9 +44,10 @@ class PostProfileWrapper extends React.Component {
                 <div className={`profile-activeShare-wrapper ${!showHideProfileContainer ? 'active-bg-color' : ''}`}>
                     {showHideProfileContainer && <ProfileContainer/>}
 
+                    <button onClick={() => this.hideComponent('showHideProfileContainer')}><img src={ iconShare } alt=""/></button>
+                    
                     {!showHideProfileContainer && <ActiveShare/>}
                     
-                    <button onClick={() => this.hideComponent('showHideProfileContainer')}><img src={ iconShare } alt=""/></button>
                 </div>
 
             </div>
