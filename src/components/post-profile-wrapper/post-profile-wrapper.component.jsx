@@ -11,15 +11,15 @@ class PostProfileWrapper extends React.Component {
     constructor() {
         super();
         this.state = {
-          showHideProfileContainer: true,
+          showHideActiveShareComponent: true,
         };
         this.hideComponent = this.hideComponent.bind(this);
       }
 
     hideComponent(name) {
         switch (name) {
-            case "showHideProfileContainer":
-                this.setState({ showHideProfileContainer: !this.state.showHideProfileContainer });
+            case "showHideActiveShareComponent":
+                this.setState({ showHideActiveShareComponent: !this.state.showHideActiveShareComponent });
                 break;
             default:
             //null;
@@ -27,7 +27,7 @@ class PostProfileWrapper extends React.Component {
     }      
 
     render() {
-        const { showHideProfileContainer } = this.state;
+        const { showHideActiveShareComponent } = this.state;
         return (
             <div className="post-profile-wrapper">
                 <div className="post-container">
@@ -41,12 +41,13 @@ class PostProfileWrapper extends React.Component {
                     to help you make any room feel complete.
                     </p>
                 </div>
-                <div className={`profile-activeShare-wrapper ${!showHideProfileContainer ? 'active-bg-color' : ''}`}>
-                    {showHideProfileContainer && <ProfileContainer/>}
-
-                    <button onClick={() => this.hideComponent('showHideProfileContainer')}><img src={ iconShare } alt=""/></button>
+                <div className="profile-activeShare-wrapper">
+                    <ProfileContainer/>
                     
-                    {!showHideProfileContainer && <ActiveShare/>}
+                    {!showHideActiveShareComponent && <ActiveShare/>}
+
+                    <button className={!showHideActiveShareComponent ? "active-bg-color" : null} onClick={() => this.hideComponent('showHideActiveShareComponent')}><img src={ iconShare } alt=""/></button>
+                    
                     
                 </div>
 
