@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/article-preview-component-react.js/static/css/main.18085214.chunk.css",
-    "main.js": "/article-preview-component-react.js/static/js/main.1f08da90.chunk.js",
-    "main.js.map": "/article-preview-component-react.js/static/js/main.1f08da90.chunk.js.map",
+    "main.css": "/article-preview-component-react.js/static/css/main.6934de62.chunk.css",
+    "main.js": "/article-preview-component-react.js/static/js/main.2e01235a.chunk.js",
+    "main.js.map": "/article-preview-component-react.js/static/js/main.2e01235a.chunk.js.map",
     "runtime-main.js": "/article-preview-component-react.js/static/js/runtime-main.f83511b6.js",
     "runtime-main.js.map": "/article-preview-component-react.js/static/js/runtime-main.f83511b6.js.map",
     "static/js/2.a642411d.chunk.js": "/article-preview-component-react.js/static/js/2.a642411d.chunk.js",
     "static/js/2.a642411d.chunk.js.map": "/article-preview-component-react.js/static/js/2.a642411d.chunk.js.map",
     "index.html": "/article-preview-component-react.js/index.html",
-    "static/css/main.18085214.chunk.css.map": "/article-preview-component-react.js/static/css/main.18085214.chunk.css.map",
+    "static/css/main.6934de62.chunk.css.map": "/article-preview-component-react.js/static/css/main.6934de62.chunk.css.map",
     "static/js/2.a642411d.chunk.js.LICENSE.txt": "/article-preview-component-react.js/static/js/2.a642411d.chunk.js.LICENSE.txt",
     "static/media/card.styles.scss": "/article-preview-component-react.js/static/media/drawers.631135b0.jpg",
     "static/media/icon-facebook.1e9b3338.svg": "/article-preview-component-react.js/static/media/icon-facebook.1e9b3338.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.f83511b6.js",
     "static/js/2.a642411d.chunk.js",
-    "static/css/main.18085214.chunk.css",
-    "static/js/main.1f08da90.chunk.js"
+    "static/css/main.6934de62.chunk.css",
+    "static/js/main.2e01235a.chunk.js"
   ]
 }
